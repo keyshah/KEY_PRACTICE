@@ -13,7 +13,7 @@
 
 <!--        </groups>-->
         <classes>
-            <class name="com.eurekaforbes.testCases.LoginPageTC_001">
+            <class name="com.keypractice.testCases.LoginPageTC_001">
             </class>
         </classes>
     </test>

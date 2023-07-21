@@ -6,16 +6,16 @@
     <groups>
     </groups>
     <test started-at="2023-07-14T12:04:47 IST" name="Default test" finished-at="2023-07-14T12:05:16 IST" duration-ms="29114">
-      <class name="com.eurekaforbes.testCases.LoginPageTC_001">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.eurekaforbes.testCases.LoginPageTC_001@6f53b8a]" started-at="2023-07-14T12:04:47 IST" name="setup" finished-at="2023-07-14T12:04:54 IST" duration-ms="7091" status="PASS">
+      <class name="com.keypractice.testCases.LoginPageTC_001">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.keypractice.testCases.LoginPageTC_001@6f53b8a]" started-at="2023-07-14T12:04:47 IST" name="setup" finished-at="2023-07-14T12:04:54 IST" duration-ms="7091" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Verify_Page_Title_Of_Login_Page()[pri:1, instance:com.eurekaforbes.testCases.LoginPageTC_001@6f53b8a]" started-at="2023-07-14T12:04:54 IST" name="Verify_Page_Title_Of_Login_Page" finished-at="2023-07-14T12:05:05 IST" duration-ms="11291" status="PASS">
+        <test-method signature="Verify_Page_Title_Of_Login_Page()[pri:1, instance:com.keypractice.testCases.LoginPageTC_001@6f53b8a]" started-at="2023-07-14T12:04:54 IST" name="Verify_Page_Title_Of_Login_Page" finished-at="2023-07-14T12:05:05 IST" duration-ms="11291" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Page_Title_Of_Login_Page -->
-        <test-method signature="Verify_Login_with_Valid_Data()[pri:2, instance:com.eurekaforbes.testCases.LoginPageTC_001@6f53b8a]" started-at="2023-07-14T12:05:05 IST" name="Verify_Login_with_Valid_Data" finished-at="2023-07-14T12:05:16 IST" duration-ms="10684" status="FAIL">
+        <test-method signature="Verify_Login_with_Valid_Data()[pri:2, instance:com.keypractice.testCases.LoginPageTC_001@6f53b8a]" started-at="2023-07-14T12:05:05 IST" name="Verify_Login_with_Valid_Data" finished-at="2023-07-14T12:05:16 IST" duration-ms="10684" status="FAIL">
           <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
               <![CDATA[element not interactable
@@ -29,7 +29,7 @@ Element: [[ChromeDriver: chrome on windows (a715ad9f2f150716ac0d367e7ce6d416)] -
 Session ID: a715ad9f2f150716ac0d367e7ce6d416]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+                <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
   (Session info: chrome=114.0.5735.199)
 Build info: version: '4.10.0', revision: 'c14d967899'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
@@ -58,8 +58,8 @@ at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Delegating
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
-at com.eurekaforbes.pageObjects.LoginPage.click_submit(LoginPage.java:42)
-at com.eurekaforbes.testCases.LoginPageTC_001.Verify_Login_with_Valid_Data(LoginPageTC_001.java:52)
+at com.keypractice.pageObjects.LoginPage.click_submit(LoginPage.java:42)
+at com.keypractice.testCases.LoginPageTC_001.Verify_Login_with_Valid_Data(LoginPageTC_001.java:52)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -94,7 +94,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Login_with_Valid_Data -->
-      </class> <!-- com.eurekaforbes.testCases.LoginPageTC_001 -->
+      </class> <!-- com.keypractice.testCases.LoginPageTC_001 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
